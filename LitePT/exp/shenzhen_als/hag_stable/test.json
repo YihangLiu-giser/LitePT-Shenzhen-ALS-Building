@@ -1,0 +1,43 @@
+{
+  "overall": {
+    "tp": 4927603,
+    "fp": 684394,
+    "fn": 482173,
+    "tn": 15603827,
+    "precision": 0.8780480459985991,
+    "recall": 0.9108700619027479,
+    "f1": 0.8941579544416312,
+    "iou": 0.8085765575952099,
+    "high_vegetation_false_positive": 472891,
+    "high_vegetation_points": 7131083,
+    "high_vegetation_false_positive_rate": 0.0663140507549835
+  },
+  "per_tile": {
+    "0855925": {
+      "tp": 2537629,
+      "fp": 450612,
+      "fn": 215871,
+      "tn": 7088061,
+      "precision": 0.8492049336047528,
+      "recall": 0.9216012347920828,
+      "f1": 0.8839231863645539,
+      "iou": 0.7919913536106103,
+      "high_vegetation_false_positive": 276118,
+      "high_vegetation_points": 2694798,
+      "high_vegetation_false_positive_rate": 0.10246333862501011
+    },
+    "0855930": {
+      "tp": 2389974,
+      "fp": 233782,
+      "fn": 266302,
+      "tn": 8515766,
+      "precision": 0.9108979645973178,
+      "recall": 0.8997461107204221,
+      "f1": 0.9052876952260895,
+      "iou": 0.8269640263274993,
+      "high_vegetation_false_positive": 196773,
+      "high_vegetation_points": 4436285,
+      "high_vegetation_false_positive_rate": 0.044355355888992705
+    }
+  }
+}

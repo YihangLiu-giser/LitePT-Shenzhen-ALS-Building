@@ -1,0 +1,49 @@
+# Course raw airborne LiDAR data (~2.82 GB) and voxel block cache
+/LidarDATA/
+LitePT/data/
+
+# Local course assignments, templates, and report folders (kept locally, not uploaded)
+/结课作业要求与模板/
+/课程报告/
+/课程报告V1/
+
+# Large model checkpoints, raw inference arrays, and >100 MB point clouds
+*.las
+*.laz
+*.pt
+*.pth
+*.ckpt
+*.tmp
+LitePT/exp/**/predictions/
+
+# Compiled Linux ELF test executables bundled in upstream sparsehash
+LitePT/libs/sparsehash/hashtable_test
+LitePT/libs/sparsehash/sparsetable_unittest
+LitePT/libs/sparsehash/time_hash_map
+LitePT/libs/sparsehash/simple_test
+LitePT/libs/sparsehash/simple_compat_test
+LitePT/libs/sparsehash/libc_allocator_with_realloc_test
+LitePT/libs/sparsehash/template_util_unittest
+LitePT/libs/sparsehash/type_traits_unittest
+LitePT/libs/sparsehash/configure~
+*.o
+*.so
+*.pyd
+*.dll
+*.exe
+
+# Python caches & virtualenvs
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

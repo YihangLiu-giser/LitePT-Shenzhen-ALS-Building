@@ -1,0 +1,28 @@
+{
+  "tile": "0855925",
+  "building_id": 23,
+  "instance_points": 43424,
+  "origin_m": [
+    792500.000423104,
+    385500.00004412985,
+    -3.4406799904039644
+  ],
+  "ground_z_m": 20.831330431348967,
+  "footprint_area_m2": 809.75,
+  "holdout_points": 637,
+  "holdout_covered_fraction": 1.0,
+  "lod1": {
+    "validation_rmse_m": 1.428191900253296,
+    "holdout_rmse_m": 1.4096977710723877,
+    "holdout_mae_m": 1.3018488883972168,
+    "faces": 148,
+    "watertight": true
+  },
+  "lod2": {
+    "validation_rmse_m": 1.1903090769636069,
+    "holdout_rmse_m": 1.254613724179338,
+    "holdout_mae_m": 1.0664533724169485,
+    "faces": 156,
+    "watertight": true
+  }
+}

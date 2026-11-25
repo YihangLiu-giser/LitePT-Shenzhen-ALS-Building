@@ -1,0 +1,189 @@
+{
+  "training_blocks": 96,
+  "validation_blocks": 48,
+  "seed": 472,
+  "selection_metric": "best point-level validation building IoU",
+  "selected_variant": "hag",
+  "variants": {
+    "base": {
+      "best_epoch": 1,
+      "validation": {
+        "overall": {
+          "tp": 541104,
+          "fp": 155726,
+          "fn": 329472,
+          "tn": 1825134,
+          "precision": 0.7765222507641749,
+          "recall": 0.6215471136351105,
+          "f1": 0.6904452324413712,
+          "iou": 0.5272366223587209,
+          "high_vegetation_false_positive": 73495,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.10750902917861903
+        },
+        "per_tile": {
+          "0845940": {
+            "tp": 312484,
+            "fp": 68390,
+            "fn": 208510,
+            "tn": 881515,
+            "precision": 0.8204393053870834,
+            "recall": 0.5997842585519219,
+            "f1": 0.6929705899311207,
+            "iou": 0.530187449947742,
+            "high_vegetation_false_positive": 37828,
+            "high_vegetation_points": 392846,
+            "high_vegetation_false_positive_rate": 0.09629218574199559
+          },
+          "0850940": {
+            "tp": 228620,
+            "fp": 87336,
+            "fn": 120962,
+            "tn": 943619,
+            "precision": 0.7235817645494942,
+            "recall": 0.6539810402137409,
+            "f1": 0.6870231301593598,
+            "iou": 0.5232560800882545,
+            "high_vegetation_false_positive": 35667,
+            "high_vegetation_points": 290771,
+            "high_vegetation_false_positive_rate": 0.12266353934883464
+          }
+        }
+      },
+      "per_epoch": [
+        {
+          "epoch": 1,
+          "tp": 541104,
+          "fp": 155726,
+          "fn": 329472,
+          "tn": 1825134,
+          "precision": 0.7765222507641749,
+          "recall": 0.6215471136351105,
+          "f1": 0.6904452324413712,
+          "iou": 0.5272366223587209,
+          "high_vegetation_false_positive": 73495,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.10750902917861903
+        },
+        {
+          "epoch": 2,
+          "tp": 738325,
+          "fp": 981130,
+          "fn": 132251,
+          "tn": 999730,
+          "precision": 0.4293947791596756,
+          "recall": 0.8480879325871606,
+          "f1": 0.5701283112055415,
+          "iou": 0.39872690373093783,
+          "high_vegetation_false_positive": 181714,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.2658125821914903
+        },
+        {
+          "epoch": 3,
+          "tp": 651273,
+          "fp": 470506,
+          "fn": 219303,
+          "tn": 1510354,
+          "precision": 0.5805715742583878,
+          "recall": 0.7480943651099962,
+          "f1": 0.6537720436368016,
+          "iou": 0.48563249674516545,
+          "high_vegetation_false_positive": 79727,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.11662524483738701
+        }
+      ]
+    },
+    "hag": {
+      "best_epoch": 3,
+      "validation": {
+        "overall": {
+          "tp": 702281,
+          "fp": 85805,
+          "fn": 168295,
+          "tn": 1895055,
+          "precision": 0.8911222886842299,
+          "recall": 0.8066854588226645,
+          "f1": 0.8468042313623872,
+          "iou": 0.7343109074730677,
+          "high_vegetation_false_positive": 72416,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.1059306600040666
+        },
+        "per_tile": {
+          "0845940": {
+            "tp": 416859,
+            "fp": 38790,
+            "fn": 104135,
+            "tn": 911115,
+            "precision": 0.9148686818142913,
+            "recall": 0.800122458224087,
+            "f1": 0.8536568633574397,
+            "iou": 0.7446783044888743,
+            "high_vegetation_false_positive": 35733,
+            "high_vegetation_points": 392846,
+            "high_vegetation_false_positive_rate": 0.09095930720944084
+          },
+          "0850940": {
+            "tp": 285422,
+            "fp": 47015,
+            "fn": 64160,
+            "tn": 983940,
+            "precision": 0.8585747073881668,
+            "recall": 0.8164665228758918,
+            "f1": 0.8369913448159069,
+            "iou": 0.71967765767265,
+            "high_vegetation_false_positive": 36683,
+            "high_vegetation_points": 290771,
+            "high_vegetation_false_positive_rate": 0.12615769798226095
+          }
+        }
+      },
+      "per_epoch": [
+        {
+          "epoch": 1,
+          "tp": 619392,
+          "fp": 235167,
+          "fn": 251184,
+          "tn": 1745693,
+          "precision": 0.7248089365391974,
+          "recall": 0.7114737828747864,
+          "f1": 0.7180794546513751,
+          "iou": 0.5601590966436143,
+          "high_vegetation_false_positive": 43242,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.06325471718813312
+        },
+        {
+          "epoch": 2,
+          "tp": 768557,
+          "fp": 685214,
+          "fn": 102019,
+          "tn": 1295646,
+          "precision": 0.5286644182611979,
+          "recall": 0.8828143665802871,
+          "f1": 0.6613100367544089,
+          "iou": 0.49399790460152077,
+          "high_vegetation_false_positive": 146964,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.21498002536508015
+        },
+        {
+          "epoch": 3,
+          "tp": 702281,
+          "fp": 85805,
+          "fn": 168295,
+          "tn": 1895055,
+          "precision": 0.8911222886842299,
+          "recall": 0.8066854588226645,
+          "f1": 0.8468042313623872,
+          "iou": 0.7343109074730677,
+          "high_vegetation_false_positive": 72416,
+          "high_vegetation_points": 683617,
+          "high_vegetation_false_positive_rate": 0.1059306600040666
+        }
+      ]
+    }
+  }
+}

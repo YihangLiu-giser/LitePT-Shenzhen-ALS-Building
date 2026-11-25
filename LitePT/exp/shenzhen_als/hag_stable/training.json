@@ -1,0 +1,948 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.24481033527198628,
+    "updates": 338,
+    "validation": {
+      "overall": {
+        "tp": 5976823,
+        "fp": 830041,
+        "fn": 548090,
+        "tn": 12886332,
+        "precision": 0.8780582365094998,
+        "recall": 0.9160004125725508,
+        "f1": 0.8966281089160132,
+        "iou": 0.8126254766515195,
+        "high_vegetation_false_positive": 667607,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.14105986487468708
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3419400,
+          "fp": 405216,
+          "fn": 285697,
+          "tn": 6211653,
+          "precision": 0.894050539975778,
+          "recall": 0.9228908177032882,
+          "f1": 0.9082417882328317,
+          "iou": 0.8319074484108631,
+          "high_vegetation_false_positive": 369556,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.13809571142332497
+        },
+        "0850940": {
+          "tp": 2557423,
+          "fp": 424825,
+          "fn": 262393,
+          "tn": 6674679,
+          "precision": 0.8575487350481918,
+          "recall": 0.9069467653208578,
+          "f1": 0.8815562875556009,
+          "iou": 0.7881990642416218,
+          "high_vegetation_false_positive": 298051,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.1449166774444184
+        }
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "loss": 0.19114267799628556,
+    "updates": 338,
+    "validation": {
+      "overall": {
+        "tp": 5727627,
+        "fp": 735198,
+        "fn": 797286,
+        "tn": 12981175,
+        "precision": 0.8862420071717864,
+        "recall": 0.8778089454985837,
+        "f1": 0.882005319171052,
+        "iou": 0.7889172768846097,
+        "high_vegetation_false_positive": 693832,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.14660099155001952
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3281226,
+          "fp": 391474,
+          "fn": 423871,
+          "tn": 6225395,
+          "precision": 0.8934097530427206,
+          "recall": 0.8855978669384365,
+          "f1": 0.8894866584157846,
+          "iou": 0.8009689078988256,
+          "high_vegetation_false_positive": 384168,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.14355592458538327
+        },
+        "0850940": {
+          "tp": 2446401,
+          "fp": 343724,
+          "fn": 373415,
+          "tn": 6755780,
+          "precision": 0.8768069530934994,
+          "recall": 0.8675746928168363,
+          "f1": 0.8721663917677566,
+          "iou": 0.7733112272960039,
+          "high_vegetation_false_positive": 309664,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.15056308485510325
+        }
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "loss": 0.17931396860254586,
+    "updates": 338,
+    "validation": {
+      "overall": {
+        "tp": 6197962,
+        "fp": 950852,
+        "fn": 326951,
+        "tn": 12765521,
+        "precision": 0.8669916436488626,
+        "recall": 0.9498918989417943,
+        "f1": 0.906550496437438,
+        "iou": 0.8290739476160633,
+        "high_vegetation_false_positive": 828187,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.17498909734465407
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3541404,
+          "fp": 494589,
+          "fn": 163693,
+          "tn": 6122280,
+          "precision": 0.877455436617457,
+          "recall": 0.9558195102584359,
+          "f1": 0.914962621542961,
+          "iou": 0.8432544718819455,
+          "high_vegetation_false_positive": 463972,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.17337708877816332
+        },
+        "0850940": {
+          "tp": 2656558,
+          "fp": 456263,
+          "fn": 163258,
+          "tn": 6643241,
+          "precision": 0.8534245946040585,
+          "recall": 0.9421033145425092,
+          "f1": 0.8955740929370868,
+          "iou": 0.810895585851257,
+          "high_vegetation_false_positive": 364215,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.17708656463296163
+        }
+      }
+    }
+  },
+  {
+    "epoch": 4,
+    "loss": 0.17375356059234875,
+    "updates": 338,
+    "validation": {
+      "overall": {
+        "tp": 5752091,
+        "fp": 564719,
+        "fn": 772822,
+        "tn": 13151654,
+        "precision": 0.9106006037857716,
+        "recall": 0.8815582675201953,
+        "f1": 0.895844116868118,
+        "iou": 0.8113384446470564,
+        "high_vegetation_false_positive": 431604,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.091194373215641
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3278127,
+          "fp": 263195,
+          "fn": 426970,
+          "tn": 6353674,
+          "precision": 0.9256788848910096,
+          "recall": 0.8847614515895266,
+          "f1": 0.9047577845001786,
+          "iou": 0.8260800868484477,
+          "high_vegetation_false_positive": 231182,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.08638810561394514
+        },
+        "0850940": {
+          "tp": 2473964,
+          "fp": 301524,
+          "fn": 345852,
+          "tn": 6797980,
+          "precision": 0.8913618073650471,
+          "recall": 0.8773494440772022,
+          "f1": 0.8843001202436901,
+          "iou": 0.7925967693362466,
+          "high_vegetation_false_positive": 200422,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.09744805528840778
+        }
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "loss": 0.15799253767896335,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 6070308,
+        "fp": 899841,
+        "fn": 454605,
+        "tn": 12816532,
+        "precision": 0.8709007511891066,
+        "recall": 0.9303278066696061,
+        "f1": 0.8996339549977614,
+        "iou": 0.817576986389044,
+        "high_vegetation_false_positive": 558439,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.11799356489784465
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3478263,
+          "fp": 405147,
+          "fn": 226834,
+          "tn": 6211722,
+          "precision": 0.8956723601164955,
+          "recall": 0.9387778511601721,
+          "f1": 0.9167186641588392,
+          "iou": 0.8462424615180997,
+          "high_vegetation_false_positive": 309037,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.11548096735306713
+        },
+        "0850940": {
+          "tp": 2592045,
+          "fp": 494694,
+          "fn": 227771,
+          "tn": 6604810,
+          "precision": 0.8397357210959527,
+          "recall": 0.9192248714100495,
+          "f1": 0.8776842000116819,
+          "iou": 0.7820296212713191,
+          "high_vegetation_false_positive": 249402,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.12126283484367723
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8290739476160633,
+      "last_gain_epoch": 3,
+      "last_lr_change_epoch": 4,
+      "stable": false,
+      "median_iou_gap": 0.004951509737524451,
+      "epochs_since_meaningful_gain": 2,
+      "next_learning_rate": 0.0005
+    }
+  },
+  {
+    "epoch": 6,
+    "loss": 0.14928390524355617,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 6122432,
+        "fp": 741194,
+        "fn": 402481,
+        "tn": 12975179,
+        "precision": 0.8920113071429009,
+        "recall": 0.9383162656728143,
+        "f1": 0.9145780581436107,
+        "iou": 0.842601409530578,
+        "high_vegetation_false_positive": 657531,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.1389308889974459
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3504242,
+          "fp": 383769,
+          "fn": 200855,
+          "tn": 6233100,
+          "precision": 0.9012942607415463,
+          "recall": 0.9457895434316564,
+          "f1": 0.9230059680436522,
+          "iou": 0.8570205039734733,
+          "high_vegetation_false_positive": 367686,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.13739692969508455
+        },
+        "0850940": {
+          "tp": 2618190,
+          "fp": 357425,
+          "fn": 201626,
+          "tn": 6742079,
+          "precision": 0.8798819739784884,
+          "recall": 0.9284967529796271,
+          "f1": 0.9035359061301912,
+          "iou": 0.8240451385337153,
+          "high_vegetation_false_positive": 289845,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.14092680237233712
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.842601409530578,
+      "last_gain_epoch": 6,
+      "last_lr_change_epoch": 4,
+      "stable": false,
+      "median_iou_gap": 0.004951509737524451,
+      "epochs_since_meaningful_gain": 0,
+      "next_learning_rate": 0.0005
+    }
+  },
+  {
+    "epoch": 7,
+    "loss": 0.15076139335625272,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 5824740,
+        "fp": 456995,
+        "fn": 700173,
+        "tn": 13259378,
+        "precision": 0.9272501944128493,
+        "recall": 0.8926923623349461,
+        "f1": 0.9096431790738685,
+        "iou": 0.8342619238179593,
+        "high_vegetation_false_positive": 396174,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.08370830579497261
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3327311,
+          "fp": 229891,
+          "fn": 377786,
+          "tn": 6386978,
+          "precision": 0.9353730825519608,
+          "recall": 0.8980361377853265,
+          "f1": 0.9163244311477674,
+          "iou": 0.8455708124141674,
+          "high_vegetation_false_positive": 214558,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.08017604815390836
+        },
+        "0850940": {
+          "tp": 2497429,
+          "fp": 227104,
+          "fn": 322387,
+          "tn": 6872400,
+          "precision": 0.9166447974753839,
+          "recall": 0.8856709090238511,
+          "f1": 0.9008917007208601,
+          "iou": 0.8196568994263059,
+          "high_vegetation_false_positive": 181616,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.08830430795650909
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.842601409530578,
+      "last_gain_epoch": 6,
+      "last_lr_change_epoch": 4,
+      "stable": false,
+      "median_iou_gap": 0.022923479170902872,
+      "epochs_since_meaningful_gain": 1,
+      "next_learning_rate": 0.0005
+    }
+  },
+  {
+    "epoch": 8,
+    "loss": 0.14708606869026403,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 5944663,
+        "fp": 584635,
+        "fn": 580250,
+        "tn": 13131738,
+        "precision": 0.9104597462085511,
+        "recall": 0.9110716112230155,
+        "f1": 0.9107655759509327,
+        "iou": 0.8361520310433237,
+        "high_vegetation_false_positive": 522931,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.1104910167190952
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3400757,
+          "fp": 292285,
+          "fn": 304340,
+          "tn": 6324584,
+          "precision": 0.9208552190849711,
+          "recall": 0.9178591005849509,
+          "f1": 0.9193547188015797,
+          "iou": 0.8507460632984288,
+          "high_vegetation_false_positive": 282522,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.10557284033472766
+        },
+        "0850940": {
+          "tp": 2543906,
+          "fp": 292350,
+          "fn": 275910,
+          "tn": 6807154,
+          "precision": 0.8969239730123092,
+          "recall": 0.9021531901372288,
+          "f1": 0.8995309819252655,
+          "iou": 0.8174069120991618,
+          "high_vegetation_false_positive": 240409,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.1168903090670227
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.842601409530578,
+      "last_gain_epoch": 6,
+      "last_lr_change_epoch": 4,
+      "stable": false,
+      "median_iou_gap": 0.018575044654279727,
+      "epochs_since_meaningful_gain": 2,
+      "next_learning_rate": 0.0005
+    }
+  },
+  {
+    "epoch": 9,
+    "loss": 0.14658217148072797,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 6046883,
+        "fp": 608020,
+        "fn": 478030,
+        "tn": 13108353,
+        "precision": 0.9086357832713715,
+        "recall": 0.9267377204876142,
+        "f1": 0.9175974839102458,
+        "iou": 0.8477414550227795,
+        "high_vegetation_false_positive": 508079,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.1073529113470442
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3461433,
+          "fp": 307863,
+          "fn": 243664,
+          "tn": 6309006,
+          "precision": 0.9183234747284373,
+          "recall": 0.9342354599623168,
+          "f1": 0.9262111317935784,
+          "iou": 0.8625635441170607,
+          "high_vegetation_false_positive": 282305,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.10549175175984628
+        },
+        "0850940": {
+          "tp": 2585450,
+          "fp": 300157,
+          "fn": 234366,
+          "tn": 6799347,
+          "precision": 0.8959813307910606,
+          "recall": 0.916886066324895,
+          "f1": 0.9063131690673943,
+          "iou": 0.8286770430385135,
+          "high_vegetation_false_positive": 225774,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.10977456184792576
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 4,
+      "stable": false,
+      "median_iou_gap": 0.018575044654279727,
+      "epochs_since_meaningful_gain": 0,
+      "next_learning_rate": 0.0005
+    }
+  },
+  {
+    "epoch": 10,
+    "loss": 0.15440464823798844,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 5895537,
+        "fp": 1199086,
+        "fn": 629376,
+        "tn": 12517287,
+        "precision": 0.8309866500305936,
+        "recall": 0.9035426219476029,
+        "f1": 0.8657471150265325,
+        "iou": 0.763275215338583,
+        "high_vegetation_false_positive": 517593,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.10936314124939359
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3380964,
+          "fp": 507870,
+          "fn": 324133,
+          "tn": 6108999,
+          "precision": 0.8694030138596813,
+          "recall": 0.9125170002296836,
+          "f1": 0.890438430372886,
+          "iou": 0.8025137628659327,
+          "high_vegetation_false_positive": 282097,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.10541402630558211
+        },
+        "0850940": {
+          "tp": 2514573,
+          "fp": 691216,
+          "fn": 305243,
+          "tn": 6408288,
+          "precision": 0.7843850609007642,
+          "recall": 0.8917507383460481,
+          "f1": 0.8346292198044843,
+          "iou": 0.7161919914144901,
+          "high_vegetation_false_positive": 235496,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.11450153789603376
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 4,
+      "stable": false,
+      "median_iou_gap": 0.0018901072253644235,
+      "epochs_since_meaningful_gain": 1,
+      "next_learning_rate": 0.0005
+    }
+  },
+  {
+    "epoch": 11,
+    "loss": 0.1526775361485118,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 6099943,
+        "fp": 702876,
+        "fn": 424970,
+        "tn": 13013497,
+        "precision": 0.8966787151032535,
+        "recall": 0.9348696296793536,
+        "f1": 0.915375999457372,
+        "iou": 0.8439569832489576,
+        "high_vegetation_false_positive": 599665,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.12670427941899834
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3489206,
+          "fp": 352262,
+          "fn": 215891,
+          "tn": 6264607,
+          "precision": 0.9083001602512373,
+          "recall": 0.9417313500834121,
+          "f1": 0.9247136942436724,
+          "iou": 0.8599697487947209,
+          "high_vegetation_false_positive": 330186,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.12338392712341831
+        },
+        "0850940": {
+          "tp": 2610737,
+          "fp": 350614,
+          "fn": 209079,
+          "tn": 6748890,
+          "precision": 0.8816033627894836,
+          "recall": 0.9258536727219081,
+          "f1": 0.9031868479149625,
+          "iou": 0.8234646404430944,
+          "high_vegetation_false_positive": 269479,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.13102456063238985
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 4,
+      "stable": false,
+      "median_iou_gap": 0.0078049522056339304,
+      "epochs_since_meaningful_gain": 2,
+      "next_learning_rate": 0.0005
+    }
+  },
+  {
+    "epoch": 12,
+    "loss": 0.1526876832000338,
+    "updates": 338,
+    "learning_rate": 0.0005,
+    "validation": {
+      "overall": {
+        "tp": 6253482,
+        "fp": 1005939,
+        "fn": 271431,
+        "tn": 12710434,
+        "precision": 0.8614298578357695,
+        "recall": 0.9584008246546736,
+        "f1": 0.9073317579217103,
+        "iou": 0.8303817416674767,
+        "high_vegetation_false_positive": 839265,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.17732978757570583
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3583755,
+          "fp": 515027,
+          "fn": 121342,
+          "tn": 6101842,
+          "precision": 0.8743463302024845,
+          "recall": 0.9672499802299372,
+          "f1": 0.9184547838325018,
+          "iou": 0.8492060896788814,
+          "high_vegetation_false_positive": 474518,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.17731791878138445
+        },
+        "0850940": {
+          "tp": 2669727,
+          "fp": 490912,
+          "fn": 150089,
+          "tn": 6608592,
+          "precision": 0.8446795094283149,
+          "recall": 0.9467734774183847,
+          "f1": 0.8928173525258529,
+          "iou": 0.8063866919904021,
+          "high_vegetation_false_positive": 364747,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.17734523067468078
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 12,
+      "stable": false,
+      "median_iou_gap": 0.005770289375847004,
+      "epochs_since_meaningful_gain": 3,
+      "next_learning_rate": 0.00025
+    }
+  },
+  {
+    "epoch": 13,
+    "loss": 0.14560572870252048,
+    "updates": 338,
+    "learning_rate": 0.00025,
+    "validation": {
+      "overall": {
+        "tp": 6117391,
+        "fp": 728349,
+        "fn": 407522,
+        "tn": 12988024,
+        "precision": 0.8936055123332175,
+        "recall": 0.9375436883219745,
+        "f1": 0.9150474550495028,
+        "iou": 0.8433985977619449,
+        "high_vegetation_false_positive": 598137,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.12638142559402568
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3501294,
+          "fp": 357037,
+          "fn": 203803,
+          "tn": 6259832,
+          "precision": 0.9074633565653129,
+          "recall": 0.9449938827512478,
+          "f1": 0.9258484380362978,
+          "iou": 0.8619346382960287,
+          "high_vegetation_false_positive": 325805,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.12174683474297911
+        },
+        "0850940": {
+          "tp": 2616097,
+          "fp": 371312,
+          "fn": 203719,
+          "tn": 6728192,
+          "precision": 0.8757076784598292,
+          "recall": 0.9277545059677653,
+          "f1": 0.9009800722376006,
+          "iou": 0.8198032169189077,
+          "high_vegetation_false_positive": 272332,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.13241173021326336
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 12,
+      "stable": false,
+      "median_iou_gap": 0.007246566718621228,
+      "epochs_since_meaningful_gain": 4,
+      "next_learning_rate": 0.00025
+    }
+  },
+  {
+    "epoch": 14,
+    "loss": 0.14339418249678682,
+    "updates": 338,
+    "learning_rate": 0.00025,
+    "validation": {
+      "overall": {
+        "tp": 5929515,
+        "fp": 527217,
+        "fn": 595398,
+        "tn": 13189156,
+        "precision": 0.918346154060599,
+        "recall": 0.9087500477017855,
+        "f1": 0.91352290098828,
+        "iou": 0.8408119249077938,
+        "high_vegetation_false_positive": 433558,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.09160723733474871
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3391810,
+          "fp": 259296,
+          "fn": 313287,
+          "tn": 6357573,
+          "precision": 0.9289815195724255,
+          "recall": 0.9154443190016348,
+          "f1": 0.9221632410089825,
+          "iou": 0.8555685574058879,
+          "high_vegetation_false_positive": 238714,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.08920266389047288
+        },
+        "0850940": {
+          "tp": 2537705,
+          "fp": 267921,
+          "fn": 282111,
+          "tn": 6831583,
+          "precision": 0.9045058036958596,
+          "recall": 0.8999541104809675,
+          "f1": 0.902224216337134,
+          "iou": 0.8218656575997243,
+          "high_vegetation_false_positive": 194844,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.0947359515652699
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 12,
+      "stable": false,
+      "median_iou_gap": 0.0031450583411638533,
+      "epochs_since_meaningful_gain": 5,
+      "next_learning_rate": 0.00025
+    }
+  },
+  {
+    "epoch": 15,
+    "loss": 0.14270101942827362,
+    "updates": 338,
+    "learning_rate": 0.00025,
+    "validation": {
+      "overall": {
+        "tp": 5975696,
+        "fp": 571492,
+        "fn": 549217,
+        "tn": 13144881,
+        "precision": 0.9127118390368506,
+        "recall": 0.9158276899630693,
+        "f1": 0.9142671097782981,
+        "iou": 0.8420736978794192,
+        "high_vegetation_false_positive": 466488,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.09856507532974193
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3403286,
+          "fp": 274592,
+          "fn": 301811,
+          "tn": 6342277,
+          "precision": 0.9253395572120663,
+          "recall": 0.9185416738077302,
+          "f1": 0.921928084545864,
+          "iou": 0.8551638080262051,
+          "high_vegetation_false_positive": 250561,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.09362965166291368
+        },
+        "0850940": {
+          "tp": 2572410,
+          "fp": 296900,
+          "fn": 247406,
+          "tn": 6802604,
+          "precision": 0.8965256455384744,
+          "recall": 0.9122616511148245,
+          "f1": 0.9043251986333226,
+          "iou": 0.8253591280052466,
+          "high_vegetation_false_positive": 215927,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.10498680900430105
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 15,
+      "stable": false,
+      "median_iou_gap": 0.011691956211942522,
+      "epochs_since_meaningful_gain": 6,
+      "next_learning_rate": 0.000125
+    }
+  },
+  {
+    "epoch": 16,
+    "loss": 0.14083745319550559,
+    "updates": 338,
+    "learning_rate": 0.000125,
+    "validation": {
+      "overall": {
+        "tp": 6103739,
+        "fp": 690413,
+        "fn": 421174,
+        "tn": 13025960,
+        "precision": 0.8983812843751509,
+        "recall": 0.935451399888397,
+        "f1": 0.9165416641483467,
+        "iou": 0.845940848687918,
+        "high_vegetation_false_positive": 571957,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.12084980704835539
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3500365,
+          "fp": 344847,
+          "fn": 204732,
+          "tn": 6272022,
+          "precision": 0.9103178186274254,
+          "recall": 0.9447431470755017,
+          "f1": 0.927211058514294,
+          "iou": 0.8642996051303425,
+          "high_vegetation_false_positive": 317775,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.11874618379229965
+        },
+        "0850940": {
+          "tp": 2603374,
+          "fp": 345566,
+          "fn": 216442,
+          "tn": 6753938,
+          "precision": 0.882816876572599,
+          "recall": 0.9232425094403323,
+          "f1": 0.9025772627582099,
+          "iou": 0.8224517609564975,
+          "high_vegetation_false_positive": 254182,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.12358693950423638
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 15,
+      "stable": false,
+      "median_iou_gap": 0.0013248998825257097,
+      "epochs_since_meaningful_gain": 7,
+      "next_learning_rate": 0.000125
+    }
+  },
+  {
+    "epoch": 17,
+    "loss": 0.13469890147425542,
+    "updates": 338,
+    "learning_rate": 0.000125,
+    "validation": {
+      "overall": {
+        "tp": 6051086,
+        "fp": 714995,
+        "fn": 473827,
+        "tn": 13001378,
+        "precision": 0.894326568067985,
+        "recall": 0.9273818670072689,
+        "f1": 0.9105543197145375,
+        "iou": 0.8357959797279192,
+        "high_vegetation_false_positive": 510144,
+        "high_vegetation_points": 4732792,
+        "high_vegetation_false_positive_rate": 0.10778922885265188
+      },
+      "per_tile": {
+        "0845940": {
+          "tp": 3471468,
+          "fp": 324155,
+          "fn": 233629,
+          "tn": 6292714,
+          "precision": 0.9145976826465642,
+          "recall": 0.9369438910776156,
+          "f1": 0.9256359389498608,
+          "iou": 0.8615663651715009,
+          "high_vegetation_false_positive": 280677,
+          "high_vegetation_points": 2676086,
+          "high_vegetation_false_positive_rate": 0.10488340060820169
+        },
+        "0850940": {
+          "tp": 2579618,
+          "fp": 390840,
+          "fn": 240198,
+          "tn": 6708664,
+          "precision": 0.8684243305241145,
+          "recall": 0.9148178462708205,
+          "f1": 0.8910175926044259,
+          "iou": 0.8034551194522241,
+          "high_vegetation_false_positive": 229467,
+          "high_vegetation_points": 2056706,
+          "high_vegetation_false_positive_rate": 0.11157015149467157
+        }
+      }
+    },
+    "convergence": {
+      "reference_iou": 0.8477414550227795,
+      "last_gain_epoch": 9,
+      "last_lr_change_epoch": 15,
+      "stable": true,
+      "median_iou_gap": 0.0012617729716254411,
+      "epochs_since_meaningful_gain": 8,
+      "next_learning_rate": 0.000125
+    }
+  }
+]

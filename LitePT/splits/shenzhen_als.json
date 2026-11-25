@@ -1,0 +1,132 @@
+{
+  "dataset": "Shenzhen course airborne LiDAR",
+  "data_root_relative_to_manifest": "../../LidarDATA",
+  "split_unit": "complete LAS tile",
+  "xy_bounds_order": [
+    "min_x",
+    "min_y",
+    "max_x",
+    "max_y"
+  ],
+  "labels": {
+    "building": "LAS classification == 6",
+    "non_building": "LAS classification != 6"
+  },
+  "splits": {
+    "train": {
+      "point_count": 63836850,
+      "files": [
+        {
+          "file": "0845925.las",
+          "point_count": 10970185,
+          "xy_bounds_m": [
+            792500.0,
+            384500.0,
+            792999.99,
+            384999.99
+          ]
+        },
+        {
+          "file": "0845930.las",
+          "point_count": 10263289,
+          "xy_bounds_m": [
+            793000.0,
+            384500.0,
+            793499.99,
+            384999.99
+          ]
+        },
+        {
+          "file": "0845935.las",
+          "point_count": 10577098,
+          "xy_bounds_m": [
+            793500.0,
+            384500.0,
+            793999.99,
+            384999.99
+          ]
+        },
+        {
+          "file": "0850925.las",
+          "point_count": 10801567,
+          "xy_bounds_m": [
+            792500.0,
+            385000.0,
+            792999.99,
+            385499.99
+          ]
+        },
+        {
+          "file": "0850930.las",
+          "point_count": 10627734,
+          "xy_bounds_m": [
+            793000.0,
+            385000.0,
+            793499.99,
+            385499.99
+          ]
+        },
+        {
+          "file": "0850935.las",
+          "point_count": 10596977,
+          "xy_bounds_m": [
+            793500.0,
+            385000.0,
+            793999.99,
+            385499.99
+          ]
+        }
+      ]
+    },
+    "validation": {
+      "point_count": 20241286,
+      "files": [
+        {
+          "file": "0845940.las",
+          "point_count": 10321966,
+          "xy_bounds_m": [
+            794000.0,
+            384500.0,
+            794499.99,
+            384999.99
+          ]
+        },
+        {
+          "file": "0850940.las",
+          "point_count": 9919320,
+          "xy_bounds_m": [
+            794000.0,
+            385000.0,
+            794499.99,
+            385499.99
+          ]
+        }
+      ]
+    },
+    "test": {
+      "point_count": 21697997,
+      "files": [
+        {
+          "file": "0855925.las",
+          "point_count": 10292173,
+          "xy_bounds_m": [
+            792500.0,
+            385500.0,
+            793000.0,
+            386000.0
+          ]
+        },
+        {
+          "file": "0855930.las",
+          "point_count": 11405824,
+          "xy_bounds_m": [
+            793000.0,
+            385500.0,
+            793500.0,
+            386000.0
+          ]
+        }
+      ]
+    }
+  }
+}
