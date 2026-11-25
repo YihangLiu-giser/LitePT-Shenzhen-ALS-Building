@@ -93,10 +93,27 @@
 
 ## 环境与复现说明
 
-### 1. 数据准备
-因 GitHub 单文件限制（100 MB），原始课程 LAS 数据与大体积中间产出未上传，见 `.gitignore`：
-- 已排除：`LidarDATA/*.las`（约 2.82 GB）、模型权重 `*.pt`（`checkpoint.pt` 145.7 MB 与 `model_best.pt` 48.6 MB）、输出带属性点云 `*_instances.laz`（108–122 MB）与逐点预测数组 `predictions/*.npy`。
-- 如需本地运行训练或推理，请将 10 幅 `.las` 瓦片（`0845925.las`–`0855930.las`）放置于仓库根目录 `LidarDATA/` 下（`LitePT/splits/shenzhen_als.json` 已指向 `../../LidarDATA`）。
+### 1. 数据准备与训练结果点云下载
+
+因 GitHub 单文件体积限制（100 MB），两幅独立测试瓦片的最终推理输出点云已托管至 Hugging Face Dataset（共 230.66 MB）：
+
+- **Hugging Face 数据集地址**：https://huggingface.co/datasets/Giserhang/LitePT-Shenzhen-ALS-Building
+- **包含文件**：
+  - `0855925_instances.laz`（108.37 MB，10,292,173 点）
+  - `0855930_instances.laz`（122.29 MB，11,405,824 点）
+- **下载方式**：
+  ```bash
+  git xet install
+  git clone git@hf.co:datasets/Giserhang/LitePT-Shenzhen-ALS-Building
+  # 或使用 HTTPS 克隆：
+  git clone https://huggingface.co/datasets/Giserhang/LitePT-Shenzhen-ALS-Building
+  ```
+- **输出点云新增扩展属性说明**（在保留完整 16 项 LAS 1.2 Format 1 原始维度基础上新增）：
+  - **`BuildingPred`**（`uint8`）：**LitePT-S 模型二分类训练推理结果**（`0` = 非建筑背景，`1` = 模型预测建筑物点；对应二分类 `building_pre` 预测属性。其中 `0855925` 含 2,988,241 个预测建筑点、`0855930` 含 2,623,756 个预测建筑点）。
+  - **`Building_ID`**（`int32`）：**高差约束单体化建筑编号**（经 0.5 m 格网与 `|Δz| ≤ 2.0 m` 连通分割并滤除 `< 80` 格噪斑；`0` = 非建筑/未分配，`1..373` / `1..322` = 独立建筑单体编号）。
+  - **`classification`**（`uint8`）：原始 ASPRS 人工参考分类真值，其中 `6` 为建筑物真值、`5` 为高植被、`2` 为地面。
+
+其余大体积本地文件通过 `.gitignore` 排除：`LidarDATA/*.las`（约 2.82 GB 原始数据）、模型权重 `*.pt`（`checkpoint.pt` 145.7 MB 与 `model_best.pt` 48.6 MB）、输出 `.laz` 与 `predictions/*.npy`。如需从头复现训练与推理，请将 10 幅 `.las` 瓦片（`0845925.las`–`0855930.las`）放置于根目录 `LidarDATA/` 下（`LitePT/splits/shenzhen_als.json` 已指向 `../../LidarDATA`）。
 
 ### 2. 训练、评估与 LoD 重建命令
 ```bash
